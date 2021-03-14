@@ -1,6 +1,6 @@
 <h1 align="center"> |KGF-POWER|</h1>
 
-<h2 align="center"> The-Kgf </h2>
+<h2 align="center"> KGF POWER </h2>
 
 <p align="center">
 
